@@ -351,7 +351,7 @@ If weight varies between runs, likely a bug (report).
 
 **Geometry:**
 ```python
-SPAN_FT = 4.53           # 4.53 ft half-wing (9.06 ft full span)
+SPAN_FT = 4.53           # 4.53 ft full wingspan
 CHORD_M = 0.10668        # 106.68 mm chord
 WEB1_POSITION = 0.2      # 20% chord
 WEB2_POSITION = 0.65     # 65% chord
