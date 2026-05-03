@@ -1,6 +1,6 @@
 # Wing Structural Analysis Tool
 
-A professional-grade Python tool for analyzing composite sandwich wing structures using Classical Laminate Theory (CLT), multi-cell torsion analysis, and comprehensive failure mode assessment.
+A Python-based structural analysis tool for evaluating composite sandwich wing structures using Classical Laminate Theory (CLT), multi-cell torsion analysis, and comprehensive failure mode assessment.
 
 ## Overview
 
@@ -16,7 +16,7 @@ This tool performs detailed structural analysis of composite sandwich wings with
 
 ### Material System
 
-**Default configuration uses aerospace-grade composites:**
+**Default configuration uses aerospace composite material system:**
 - **Face sheets**: FCIM255 fabric (HiMax CGL4012) - ±45° biax carbon, 200 gsm, with T700S 12k fiber
 - **Core**: ROHACELL 31 IG-F closed-cell foam (32 kg/m³, 36 MPa modulus)
 - **Spar caps**: T700S unidirectional carbon/epoxy rods (138 GPa, 1500 kg/m³)
@@ -32,14 +32,14 @@ This tool performs detailed structural analysis of composite sandwich wings with
 
 ## Key Features
 
-✅ **Classical Laminate Theory (CLT)** - Accurate ABD matrix formulation for composite laminates  
+✅ **Classical Laminate Theory (CLT)** - CLT-based ABD matrix formulation for laminate stiffness calculation  
 ✅ **Multi-cell torsion** - Bredt solver with corrected single-cell handling  
-✅ **Physically consistent shear partition** - GA stiffness model with weighted web split  
+✅ **GA shear partition** - GA stiffness model with weighted web split  
 ✅ **Sandwich wrinkling checks** - Cube-root formula for face-sheet buckling (first-order screen)  
 ✅ **Transformed section analysis** - Correct neutral axis and moment of inertia for mixed materials  
 ✅ **Tsai-Wu failure criterion** - Composite-specific failure assessment for skins  
 ✅ **Automated sweep studies** - Batch analysis across multiple sweep angles  
-✅ **Professional outputs** - Excel workbook + publication-quality PNG plots  
+✅ **Professional outputs** - Excel workbook + generated PNG plots for result inspection and reporting  
 ✅ **Built-in validation** - Bredt solver test runs automatically on startup  
 
 ---
