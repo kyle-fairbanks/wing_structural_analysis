@@ -57,7 +57,7 @@ Typical design iteration takes 5-30 seconds per sweep angle depending on resolut
 #### 2.1.1 Wing Planform
 
 **Span (`span_ft` or `SPAN_FT` in code)**
-- **Units**: feet (half-wing, root to tip)
+- **Units**: feet, full wingspan. The analysis is performed on one semi-span from root to tip
 - **Range**: 2 - 20 ft typical for small UAV/RC aircraft
 - **Default**: 4.53 ft
 - **Command line**: `--span_ft 4.53`
