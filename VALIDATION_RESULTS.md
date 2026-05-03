@@ -52,7 +52,7 @@ Before fix:
 2. Replaced with direct stress: `τ_web = V_web/(h_web·t_web)` using h_web_effective
 3. Implemented stiffness-weighted web split: `V_web_i = V_web_total · (GA_i / Σ GA)`
 4. Combined transverse + torsion using RSS at component level (arrays over span)
-5. Commented out Q-based diagnostics (educational value, not used in production)
+5. Commented out Q-based diagnostics (educational value, not used in governing output)
 
 ### Validation:
 
