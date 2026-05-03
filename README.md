@@ -16,7 +16,7 @@ This tool performs detailed structural analysis of composite sandwich wings with
 
 ### Material System
 
-**Default configuration uses aerospace composite material system:**
+**Default configuration uses an aerospace composite material system:**
 - **Face sheets**: FCIM255 fabric (HiMax CGL4012) - ±45° biax carbon, 200 gsm, with T700S 12k fiber
 - **Core**: ROHACELL 31 IG-F closed-cell foam (32 kg/m³, 36 MPa modulus)
 - **Spar caps**: T700S unidirectional carbon/epoxy rods (138 GPa, 1500 kg/m³)
@@ -36,7 +36,7 @@ This tool performs detailed structural analysis of composite sandwich wings with
 ✅ **Multi-cell torsion** - Bredt solver with corrected single-cell handling  
 ✅ **GA shear partition** - GA stiffness model with weighted web split  
 ✅ **Sandwich wrinkling checks** - Cube-root formula for face-sheet buckling (first-order screen)  
-✅ **Transformed section analysis** - Correct neutral axis and moment of inertia for mixed materials  
+✅ **Transformed section analysis** - Neutral axis and moment of inertia calculation for mixed materials  
 ✅ **Tsai-Wu failure criterion** - Composite-specific failure assessment for skins  
 ✅ **Automated sweep studies** - Batch analysis across multiple sweep angles  
 ✅ **Professional outputs** - Excel workbook + generated PNG plots for result inspection and reporting  
