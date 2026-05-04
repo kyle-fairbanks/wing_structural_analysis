@@ -1271,7 +1271,7 @@ def run_analysis_professional(inp: Inputs, mat: Materials) -> Dict[str, pd.DataF
     m_t = m_t_lift + m_t_cm
 
     # ===================== BEGIN: Half-wing load normalization =====================
-    # Goal: ensure ∫_0^{span_m} lift_per_unit_span dx == Target half-wing lift at g_limit
+    # Goal: ensure ∫_0^{b/2} lift_per_unit_span dx == Target half-wing lift at g_limit
     # This fixes the "half of half" bug and makes root V/M correct.
     
     import numpy as _np
