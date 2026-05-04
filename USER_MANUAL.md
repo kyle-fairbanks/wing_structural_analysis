@@ -372,7 +372,7 @@ python Wing.py [OPTIONS]
 | Option | Type | Required | Default | Description |
 |--------|------|----------|---------|-------------|
 | `--airfoil` | string | No | `Modified_NACA_6_Series.txt` | Airfoil coordinate file |
-| `--span_ft` | float | No | `4.53` | Half-wing span (feet) |
+| `--span_ft` | float | No | `4.53` | Wingspan (feet) |
 | `--chord_m` | float | **Yes** | None | Chord length (meters) |
 | `--sweeps` | string | No | `"0"` | Comma-separated sweep angles |
 | `--out` | string | No | `wing_results_final.xlsx` | Output Excel filename |
