@@ -235,7 +235,7 @@ The main configuration section is in `Wing.py` lines 2786-2810. Key parameters:
 
 ```python
 # Geometry
-SPAN_FT = 4.53                # ft (half-wing span)
+SPAN_FT = 4.53                # ft (wingspan)
 CHORD_M = 0.10668             # m (uniform chord)
 WEB1_POSITION = 0.2           # fraction of chord (front spar at 20% chord)
 WEB2_POSITION = 0.65          # fraction of chord (rear spar at 65% chord)
@@ -302,7 +302,7 @@ python Wing.py [OPTIONS]
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
 | `--airfoil` | str | `Modified_NACA_6_Series.txt` | Path to airfoil coordinate file |
-| `--span_ft` | float | `4.53` | Wing span in feet (half-wing, root to tip) |
+| `--span_ft` | float | `4.53` | Full wingspan in feet (tip to tip) |
 | `--chord_m` | float | **Required** | Chord length in meters (uniform) |
 | `--sweeps` | str | `0` | Comma-separated sweep angles (e.g., `"0,15,30,45"`) |
 | `--out` | str | `wing_results_final.xlsx` | Output Excel filename |
