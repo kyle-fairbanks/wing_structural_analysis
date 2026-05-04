@@ -95,7 +95,7 @@ DEBUG: t_face=0.00026 m, t_core=0.003 m, t_web=0.00026 m
 **Verification checklist:**
 
 - [ ] Chord matches input (within rounding)
-- [ ] Span = input_ft × 0.3048 (for full wing, multiply by 2)
+- [ ] Span = input_ft × 0.3048
 - [ ] x_web1 = web1_p × chord
 - [ ] x_web2 = web2_p × chord
 - [ ] x_web2 > x_web1 (rear web aft of front web)
