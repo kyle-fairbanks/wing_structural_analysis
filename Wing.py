@@ -1301,7 +1301,7 @@ def run_analysis_professional(inp: Inputs, mat: Materials) -> Dict[str, pd.DataF
         WL_lb_ft2 = float(getattr(inp, "wing_loading_lbft2", 0.0))
         # 1 lb/ft^2 = 47.88025898 N/m^2
         WL_N_m2   = WL_lb_ft2 * 47.88025898
-        A_full    = (2.0 * float(span_m)) * float(chord_m)     # full-wing area
+        A_full    = float(span_m) * float(chord_m)     # full-wing area
         L_full_1g = WL_N_m2 * A_full                           # N @ 1g for full wing
         L_half_target = 0.5 * L_full_1g * float(g_limit)       # target N for one semi-span
     
