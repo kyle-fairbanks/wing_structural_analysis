@@ -628,7 +628,7 @@ rho_rod = 1500.0        # kg/m³
 
 **Geometry:**
 - Half-wing from root (fuselage attachment) to tip
-- Span = distance from root to tip (user input, converted to meters)
+- Span = full tip to tip wingspan (user input, converted to meters)
 - Uniform chord (no taper in current version)
 
 **Boundary conditions:**
