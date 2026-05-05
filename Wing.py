@@ -1352,9 +1352,7 @@ def run_analysis_professional(inp: Inputs, mat: Materials) -> Dict[str, pd.DataF
         ax.grid(True)
         fig.tight_layout()
         fig.savefig("lift_distribution_full_span.png", dpi=300)
-        #plt.close(fig)
-        # for interactive use instead of saving:
-        plt.show()
+        plt.close(fig)
 
     # --- Sweep-resolved internal loads (geometry unchanged) ---
     # Geometry/ABD/section properties stay fixed. Only the load vector is resolved through sweep.
